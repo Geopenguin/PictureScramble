@@ -80,7 +80,7 @@
             // 
             // pictureBox8
             // 
-            this.pictureBox8.Location = new System.Drawing.Point(147, 247);
+            this.pictureBox8.Location = new System.Drawing.Point(291, 125);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(138, 116);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -90,7 +90,7 @@
             // 
             // pictureBox7
             // 
-            this.pictureBox7.Location = new System.Drawing.Point(3, 247);
+            this.pictureBox7.Location = new System.Drawing.Point(3, 3);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(138, 116);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -100,7 +100,7 @@
             // 
             // pictureBox6
             // 
-            this.pictureBox6.Location = new System.Drawing.Point(291, 125);
+            this.pictureBox6.Location = new System.Drawing.Point(3, 125);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(138, 116);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -120,7 +120,7 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Location = new System.Drawing.Point(3, 125);
+            this.pictureBox4.Location = new System.Drawing.Point(147, 247);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(138, 116);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -131,7 +131,7 @@
             // pictureBox3
             // 
             this.pictureBox3.InitialImage = null;
-            this.pictureBox3.Location = new System.Drawing.Point(291, 3);
+            this.pictureBox3.Location = new System.Drawing.Point(147, 3);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(138, 116);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -141,7 +141,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(147, 3);
+            this.pictureBox2.Location = new System.Drawing.Point(3, 247);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(138, 116);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -154,7 +154,7 @@
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Location = new System.Drawing.Point(291, 3);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(138, 116);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -164,14 +164,14 @@
             // 
             // uxImageHolder
             // 
-            this.uxImageHolder.Controls.Add(this.pictureBox1);
-            this.uxImageHolder.Controls.Add(this.pictureBox2);
-            this.uxImageHolder.Controls.Add(this.pictureBox3);
-            this.uxImageHolder.Controls.Add(this.pictureBox4);
-            this.uxImageHolder.Controls.Add(this.pictureBox5);
-            this.uxImageHolder.Controls.Add(this.pictureBox6);
             this.uxImageHolder.Controls.Add(this.pictureBox7);
+            this.uxImageHolder.Controls.Add(this.pictureBox3);
+            this.uxImageHolder.Controls.Add(this.pictureBox1);
+            this.uxImageHolder.Controls.Add(this.pictureBox6);
+            this.uxImageHolder.Controls.Add(this.pictureBox5);
             this.uxImageHolder.Controls.Add(this.pictureBox8);
+            this.uxImageHolder.Controls.Add(this.pictureBox2);
+            this.uxImageHolder.Controls.Add(this.pictureBox4);
             this.uxImageHolder.Controls.Add(this.pictureBox9);
             this.uxImageHolder.Location = new System.Drawing.Point(7, 32);
             this.uxImageHolder.MaximumSize = new System.Drawing.Size(559, 407);
